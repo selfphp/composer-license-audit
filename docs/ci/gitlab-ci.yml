@@ -1,0 +1,11 @@
+license_audit:
+  image: php:8.1
+  script:
+    - apt-get update && apt-get install -y unzip git
+    - curl -sS https://getcomposer.org/installer | php
+    - php composer.phar install
+    - php vendor/bin/license-audit --fail-on-blacklist --csv=report/licenses.csv
+    - php vendor/bin/phpunit
+  artifacts:
+    paths:
+      - report/licenses.csv

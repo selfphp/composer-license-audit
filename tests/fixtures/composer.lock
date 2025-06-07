@@ -1,0 +1,1 @@
+{"packages":[{"name":"vendor\/package-one","version":"1.0.0","license":["MIT"]},{"name":"vendor\/package-two","version":"2.1.0","license":["GPL-3.0"]}],"packages-dev":[{"name":"vendor\/dev-package","version":"0.3.1","license":["Apache-2.0"]}]}

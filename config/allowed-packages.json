@@ -1,0 +1,6 @@
+{
+  "exceptions": [
+    "foo/bar",
+    "legacy/dependency"
+  ]
+}

@@ -1,8 +1,26 @@
 {
   "name": "selfphp/composer-license-audit",
-  "description": "Audit Composer dependencies for license compliance",
+  "description": "Automated license audit tool for Composer dependencies with blacklist and CI integration.",
   "type": "library",
   "license": "MIT",
+  "keywords": [
+    "composer",
+    "license",
+    "audit",
+    "compliance",
+    "ci",
+    "blacklist",
+    "php",
+    "dependency"
+  ],
+  "authors": [
+    {
+      "name": "Damir Enseleit",
+      "email": "damir.enseleit@selfphp.de",
+      "homepage": "https://www.selfphp.de",
+      "role": "Developer"
+    }
+  ],
   "require": {
     "php": "^8.1",
     "symfony/console": "^7.3"
